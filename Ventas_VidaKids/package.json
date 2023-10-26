@@ -1,0 +1,19 @@
+{
+  "name": "ventas_vidakids",
+  "version": "1.0.0",
+  "description": "Front End y vistas de el modulo de ventas de VidaKids",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttsendo/VidaKids_Ventas-Front-End.git"
+  },
+  "author": "Sebastian Castaño (ttsendo)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttsendo/VidaKids_Ventas-Front-End/issues"
+  },
+  "homepage": "https://github.com/ttsendo/VidaKids_Ventas-Front-End#readme"
+}
