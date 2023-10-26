@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ttsendo/VidaKids_Ventas-Front-End/issues"
   },
-  "homepage": "https://github.com/ttsendo/VidaKids_Ventas-Front-End#readme"
+  "homepage": "https://github.com/ttsendo/VidaKids_Ventas-Front-End#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
