@@ -4,7 +4,7 @@ const hbs = require('hbs')// INCORPORAR MOTOR CON PLANTILLAS
 
 const app = express()
 
-const port = 8383
+const port = 8686
 
 //SERVIDOR DE CONTENIDO ESTATICO
 app.use(express.static('public'))
@@ -20,8 +20,8 @@ hbs.registerPartials(__dirname+'/public/views/partials')
 
 app.get('/', (req, res) => {
     res.render('index', {
-        "nombre": "Diego Moreno",
-        "email": "diego.1692@hotmail.com"
+        "nombre": "Sebastian Castaño",
+        "email": "sebas.czr@gmail.com"
     })//REDIRECCIONAR HACIA EL ARCHIVO HBS
 })
 
