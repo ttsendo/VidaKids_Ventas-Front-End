@@ -9,7 +9,7 @@ let Clientes = [
         "fechaNac_Cliente": "01/22/2020"
     },
     {
-        "id_Cliente": 1111,
+        "id_Cliente": 4444,
         "nombre_Cliente": "sebas",
         "apellido_Cliente": "casta",
         "correo_Cliente": "estrin@gmail.com",
@@ -19,7 +19,7 @@ let Clientes = [
 ]
 
 class Server{
-
+    
     constructor(){
         this.app=express()
         this.port= process.env.PORT
@@ -50,8 +50,7 @@ routes(){
             let resultado = ''
             //buscar el documento
             resultado=Clientes.find(cliente=> cliente.id_Cliente === parseInt(id_Cliente))
-        
-
+            
         res.json({
             msg:resultado
         })
@@ -59,7 +58,7 @@ routes(){
 
     this.app.post('/crearCliente',(req,res)=>{
         const{id_Cliente,nombre_Cliente,apellido_Cliente}=req.query
-        aprendices.push({
+        Clientes.push({
             "id_Cliente":id_Cliente,
             "nombre_Cliente":nombre_Cliente,
             "apellido_Cliente":apellido_Cliente

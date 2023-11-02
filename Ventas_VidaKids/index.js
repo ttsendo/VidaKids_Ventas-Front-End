@@ -4,7 +4,7 @@ const hbs = require('hbs')// INCORPORAR MOTOR CON PLANTILLAS
 
 const app = express()
 
-const port = 8686
+const port = 8787
 
 //SERVIDOR DE CONTENIDO ESTATICO
 app.use(express.static('public'))
