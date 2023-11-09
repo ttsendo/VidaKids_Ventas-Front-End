@@ -45,6 +45,7 @@ routes(){
         })
     }
     )
+    //NUNCA RECIBIO EL POST MAN LA REQUEST
         this.app.get('/consultarCliente',(req,res)=>{
             const{id_Cliente,nombre_Cliente}=req.query//Recibir Parametros
             let resultado = ''
